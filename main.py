@@ -4,19 +4,6 @@ import random
 import string
 import operator
 
-"""
-    Table Element Demo With Sorting
-
-    The data for the table is assumed to have HEADERS across the first row.
-    This is often the case for CSV files or spreadsheets
-
-    In release 4.48.0 a new enable_click_events parameter was added to the Table Element
-    This enables you to click on Column Headers and individual cells as well as the standard Row selection
-
-    This demo shows how you can use these click events to sort your table by columns
-
-"""
-
 # Use a 2D Array
 sg.theme('Light green 6')
 
